@@ -4,7 +4,7 @@
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
-            "name": "fargate-task",
+            "name": "fargaye-cont",
             "image": "316980228808.dkr.ecr.ap-south-1.amazonaws.com/sample-nodes-app:latest",
             "portMappings": [
                 {
