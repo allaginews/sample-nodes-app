@@ -1,7 +1,7 @@
 {
     "family": "sample-nodes-app",
     "executionRoleArn": "arn:aws:iam::316980228808:role/ecsTaskExecutionRole",
-    "networkMode": "",
+    "networkMode": "awsvpc",
     "containerDefinitions": [
         {
             "name": "fargaye-cont",
